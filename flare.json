@@ -1,0 +1,1755 @@
+{
+"name": "graphics",
+ "children": [  
+{"name": "liquibase",
+ "children": [  
+{"name": "ext",
+ "children": [  
+{"name": "logging",
+ "children": [  
+{"name": "log4j2",
+ "children": [  
+{"name": "Log4j2Logger", "size": 780}
+ ] 
+ } , 
+{"name": "log4j",
+ "children": [  
+{"name": "Category", "size": 780},
+{"name": "Layout", "size": 780},
+{"name": "LogManager", "size": 780},
+{"name": "NDC", "size": 780},
+{"name": "Priority", "size": 780},
+{"name": "PriorityTest", "size": 780},
+{"name": "xml",
+ "children": [  
+{"name": "DOMConfigurator", "size": 780}
+ ] 
+ } , 
+{"name": "FilterPerformanceComparison", "size": 780},
+{"name": "LoggerTest", "size": 780},
+{"name": "MarkerManager", "size": 780},
+{"name": "PerformanceComparison", "size": 780},
+{"name": "PerformanceRun", "size": 780},
+{"name": "ThreadContext", "size": 780},
+{"name": "ThreadContextInheritanceTest", "size": 780},
+{"name": "ThreadContextTest", "size": 780},
+{"name": "Timer", "size": 780},
+{"name": "core",
+ "children": [  
+{"name": "AbstractLifeCycle", "size": 780},
+{"name": "AbstractLogEvent", "size": 780},
+{"name": "LoggerContext", "size": 780},
+{"name": "SimplePerfTest", "size": 780},
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "async",
+ "children": [  
+{"name": "AsyncLoggerConfigHelper", "size": 780},
+{"name": "AsyncLoggerContextSelectorTest", "size": 780},
+{"name": "AsyncLoggerThreadNameStrategyTest", "size": 780},
+{"name": "RingBufferLogEvent", "size": 780},
+{"name": "perftest",
+ "children": [  
+{"name": "IPerfTestRunner", "size": 780},
+{"name": "MtPerfTest", "size": 780},
+{"name": "PerfTest", "size": 780},
+{"name": "PerfTestResultFormatter", "size": 780},
+{"name": "RunLog4j1", "size": 780},
+{"name": "RunLog4j2", "size": 780},
+{"name": "RunLogback", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "config",
+ "children": [  
+{"name": "Configurator", "size": 780},
+{"name": "CustomLevelConfig", "size": 780},
+{"name": "builder",
+ "children": [  
+{"name": "api",
+ "children": [  
+{"name": "Component", "size": 780}
+ ] 
+ } , 
+{"name": "impl",
+ "children": [  
+{"name": "BuiltConfiguration", "size": 780},
+{"name": "DefaultComponentBuilder", "size": 780},
+{"name": "DefaultConfigurationBuilder", "size": 780},
+{"name": "ExtendedClassInfo", "size": 780},
+{"name": "ExtendedStackTraceElement", "size": 780},
+{"name": "Log4jContextFactory", "size": 780},
+{"name": "Log4jLogEvent", "size": 780},
+{"name": "ThrowableFormatOptionsTest", "size": 780},
+{"name": "ThrowableProxy", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "plugins",
+ "children": [  
+{"name": "processor",
+ "children": [  
+{"name": "PluginEntry", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "filter",
+ "children": [  
+{"name": "AbstractFilter", "size": 780}
+ ] 
+ } , 
+{"name": "impl",
+ "children": [  
+{"name": "BuiltConfiguration", "size": 780},
+{"name": "DefaultComponentBuilder", "size": 780},
+{"name": "DefaultConfigurationBuilder", "size": 780},
+{"name": "ExtendedClassInfo", "size": 780},
+{"name": "ExtendedStackTraceElement", "size": 780},
+{"name": "Log4jContextFactory", "size": 780},
+{"name": "Log4jLogEvent", "size": 780},
+{"name": "ThrowableFormatOptionsTest", "size": 780},
+{"name": "ThrowableProxy", "size": 780}
+ ] 
+ } , 
+{"name": "jackson",
+ "children": [  
+{"name": "ExtendedStackTraceElementMixIn", "size": 780},
+{"name": "LevelMixInTest", "size": 780},
+{"name": "LogEventMixIn", "size": 780},
+{"name": "MapEntry", "size": 780}
+ ] 
+ } , 
+{"name": "jmx",
+ "children": [  
+{"name": "AsyncAppenderAdmin", "size": 780},
+{"name": "LoggerConfigAdmin", "size": 780},
+{"name": "ServerTest", "size": 780}
+ ] 
+ } , 
+{"name": "layout",
+ "children": [  
+{"name": "CsvLogEventLayoutTest", "size": 780},
+{"name": "CsvParameterLayoutTest", "size": 780},
+{"name": "JsonLayoutTest", "size": 780},
+{"name": "Rfc5424LayoutTest", "size": 780},
+{"name": "XmlLayoutTest", "size": 780}
+ ] 
+ } , 
+{"name": "lookup",
+ "children": [  
+{"name": "InterpolatorTest", "size": 780},
+{"name": "JndiLookupTest", "size": 780},
+{"name": "StrSubstitutor", "size": 780}
+ ] 
+ } , 
+{"name": "net",
+ "children": [  
+{"name": "DatagramOutputStream", "size": 780},
+{"name": "mock",
+ "children": [  
+{"name": "MockSyslogServer", "size": 780}
+ ] 
+ } , 
+{"name": "server",
+ "children": [  
+{"name": "AbstractSocketServerTest", "size": 780},
+{"name": "JsonInputStreamLogEventBridge", "size": 780}
+ ] 
+ } , 
+{"name": "ssl",
+ "children": [  
+{"name": "KeyStoreConfigurationTest", "size": 780},
+{"name": "StoreConfiguration", "size": 780},
+{"name": "TrustStoreConfigurationTest", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "pattern",
+ "children": [  
+{"name": "AbstractStyleNameConverter", "size": 780},
+{"name": "AnsiEscape", "size": 780},
+{"name": "CachedDateFormat", "size": 780},
+{"name": "DatePatternConverterTest", "size": 780},
+{"name": "FormattingInfo", "size": 780},
+{"name": "NameAbbreviator", "size": 780},
+{"name": "PatternParser", "size": 780},
+{"name": "PatternParserTest2", "size": 780}
+ ] 
+ } , 
+{"name": "selector",
+ "children": [  
+{"name": "BasicContextSelector", "size": 780},
+{"name": "ContextSelector", "size": 780}
+ ] 
+ } , 
+{"name": "util",
+ "children": [  
+{"name": "ClockFactoryTest", "size": 780},
+{"name": "CyclicBuffer", "size": 780},
+{"name": "Integers", "size": 780},
+{"name": "JndiCloser", "size": 780},
+{"name": "NanoClockFactoryTest", "size": 780},
+{"name": "Timer", "size": 780},
+{"name": "UuidTest", "size": 780},
+{"name": "datetime",
+ "children": [  
+{"name": "FastDateParser", "size": 780},
+{"name": "FastDatePrinter", "size": 780},
+{"name": "FixedDateFormat", "size": 780},
+{"name": "FixedDateFormatTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "flume",
+ "children": [  
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "io",
+ "children": [  
+{"name": "ByteStreamLogger", "size": 780},
+{"name": "CharStreamLogger", "size": 780},
+{"name": "LoggerPrintStream", "size": 780},
+{"name": "LoggerPrintWriter", "size": 780}
+ ] 
+ } , 
+{"name": "jcl",
+ "children": [  
+{"name": "Log4jLog", "size": 780},
+{"name": "LogFactoryImpl", "size": 780}
+ ] 
+ } , 
+{"name": "message",
+ "children": [  
+{"name": "BasicThreadInformation", "size": 780},
+{"name": "FormattedMessage", "size": 780},
+{"name": "FormattedMessageTest", "size": 780},
+{"name": "LocalizedMessage", "size": 780},
+{"name": "LocalizedMessageTest", "size": 780},
+{"name": "MapMessageTest", "size": 780},
+{"name": "MessageFormatMessage", "size": 780},
+{"name": "MessageFormatMessageTest", "size": 780},
+{"name": "MessageFormatsPerfTest", "size": 780},
+{"name": "ObjectArrayMessage", "size": 780},
+{"name": "ObjectMessage", "size": 780},
+{"name": "ObjectMessageTest", "size": 780},
+{"name": "ParameterizedMessage", "size": 780},
+{"name": "ParameterizedMessageTest", "size": 780},
+{"name": "SimpleMessage", "size": 780},
+{"name": "StringFormattedMessage", "size": 780},
+{"name": "StringFormattedMessageTest", "size": 780},
+{"name": "StructuredDataId", "size": 780},
+{"name": "StructuredDataMessage", "size": 780}
+ ] 
+ } , 
+{"name": "nosql",
+ "children": [  
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "perf",
+ "children": [  
+{"name": "jmh",
+ "children": [  
+{"name": "DebugDisabledBenchmark", "size": 780},
+{"name": "LoggerConfigBenchmark", "size": 780},
+{"name": "ParameterizedMessageBenchmark", "size": 780},
+{"name": "PatternLayoutBenchmark", "size": 780},
+{"name": "SimpleBenchmark", "size": 780},
+{"name": "TimeFormatBenchmark", "size": 780},
+{"name": "generated",
+ "children": [  
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_latency", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_throughputBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_latency", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_throughputBaseline", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_latency", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_throughputBaseline", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B1", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B2", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B3", "size": 780},
+{"name": "AsyncLoggersBenchmark_latency", "size": 780},
+{"name": "AsyncLoggersBenchmark_latencyBaseline", "size": 780},
+{"name": "AsyncLoggersBenchmark_throughput", "size": 780},
+{"name": "AsyncLoggersBenchmark_throughputBaseline", "size": 780},
+{"name": "ClocksBenchmark_baseline", "size": 780},
+{"name": "ClocksBenchmark_cachedClock", "size": 780},
+{"name": "ClocksBenchmark_coarseCachedClock", "size": 780},
+{"name": "ClocksBenchmark_fixedClock", "size": 780},
+{"name": "ClocksBenchmark_fixedFinalClock", "size": 780},
+{"name": "ClocksBenchmark_jmh_B1", "size": 780},
+{"name": "ClocksBenchmark_jmh_B2", "size": 780},
+{"name": "ClocksBenchmark_jmh_B3", "size": 780},
+{"name": "ClocksBenchmark_oldCachedClock", "size": 780},
+{"name": "ClocksBenchmark_systemClock", "size": 780},
+{"name": "ClocksBenchmark_systemCurrentTimeMillis", "size": 780},
+{"name": "CollectionsBenchmark_iterArrayList1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArrayList3Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArraySet1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArraySet3Element", "size": 780},
+{"name": "CollectionsBenchmark_iterMap1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterMap3Elements", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B1", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B2", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B3", "size": 780},
+{"name": "CollectionsBenchmark_testBaseline", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_initializeLoggerContext", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B1", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B2", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B3", "size": 780},
+{"name": "DebugDisabledBenchmark_baseline", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B1", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B2", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B3", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jClassicDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jClassicIsDebugEnabled", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jDebugParameterizedString", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jIsDebugEnabled", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jDebugParameterizedString", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jIsDebugEnabled", "size": 780},
+{"name": "FileAppenderBenchmark_baseline", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "FileAppenderBenchmark_log4j1StringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2ParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2RAFParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2RAFStringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2StringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_slf4jParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_slf4jStringConcatenation", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B1", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B2", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B3", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyBaseline", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyParameterizedDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyParameterizedString", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyStringFormatDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyStringFormatString", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputBaseline", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputParameterizedDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputParameterizedString", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputStringFormatDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputStringFormatString", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeH2Exception", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeH2Message", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeHSQLDBException", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeHSQLDBMessage", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputH2Exception", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputH2Message", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputHSQLDBException", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputHSQLDBMessage", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeH2Exception", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeH2Message", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeHSQLDBException", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeHSQLDBMessage", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputH2Exception", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputH2Message", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputHSQLDBException", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputHSQLDBMessage", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithExceptionUsingBuilder", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithoutException", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithoutExceptionUsingBuilder", "size": 780},
+{"name": "Log4jLogEventBenchmark_createSerializableLogEventProxyWithException", "size": 780},
+{"name": "Log4jLogEventBenchmark_createSerializableLogEventProxyWithoutException", "size": 780},
+{"name": "Log4jLogEventBenchmark_getSourceLocationOfLogEvent", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B1", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B2", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B3", "size": 780},
+{"name": "Log4jLogEventBenchmark_testBaseline", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B1", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B2", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B3", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersAndLock", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersNoLocks", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersRetryAfterReconfig", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithoutCountersOrLocks", "size": 780},
+{"name": "LoggerConfigBenchmark_testBaseline", "size": 780},
+{"name": "NanotimeBenchmark_baseline", "size": 780},
+{"name": "NanotimeBenchmark_granularity_nanotime", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B1", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B2", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B3", "size": 780},
+{"name": "NanotimeBenchmark_latency_nanotime", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format0", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format0_inlined2", "size": 780},
+{"name": "ParameterizedMessageBenchmark_formatStringArgs", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B1", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B2", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B3", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B1", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B2", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B3", "size": 780},
+{"name": "PatternLayoutBenchmark_throughputPatternM", "size": 780},
+{"name": "PatternLayoutBenchmark_throughputPatternMC", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "org",
+ "children": [  
+{"name": "apache",
+ "children": [  
+{"name": "log4j",
+ "children": [  
+{"name": "Category", "size": 780},
+{"name": "Layout", "size": 780},
+{"name": "LogManager", "size": 780},
+{"name": "NDC", "size": 780},
+{"name": "Priority", "size": 780},
+{"name": "PriorityTest", "size": 780},
+{"name": "xml",
+ "children": [  
+{"name": "DOMConfigurator", "size": 780}
+ ] 
+ } , 
+{"name": "FilterPerformanceComparison", "size": 780},
+{"name": "LoggerTest", "size": 780},
+{"name": "MarkerManager", "size": 780},
+{"name": "PerformanceComparison", "size": 780},
+{"name": "PerformanceRun", "size": 780},
+{"name": "ThreadContext", "size": 780},
+{"name": "ThreadContextInheritanceTest", "size": 780},
+{"name": "ThreadContextTest", "size": 780},
+{"name": "Timer", "size": 780},
+{"name": "core",
+ "children": [  
+{"name": "AbstractLifeCycle", "size": 780},
+{"name": "AbstractLogEvent", "size": 780},
+{"name": "LoggerContext", "size": 780},
+{"name": "SimplePerfTest", "size": 780},
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "async",
+ "children": [  
+{"name": "AsyncLoggerConfigHelper", "size": 780},
+{"name": "AsyncLoggerContextSelectorTest", "size": 780},
+{"name": "AsyncLoggerThreadNameStrategyTest", "size": 780},
+{"name": "RingBufferLogEvent", "size": 780},
+{"name": "perftest",
+ "children": [  
+{"name": "IPerfTestRunner", "size": 780},
+{"name": "MtPerfTest", "size": 780},
+{"name": "PerfTest", "size": 780},
+{"name": "PerfTestResultFormatter", "size": 780},
+{"name": "RunLog4j1", "size": 780},
+{"name": "RunLog4j2", "size": 780},
+{"name": "RunLogback", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "config",
+ "children": [  
+{"name": "Configurator", "size": 780},
+{"name": "CustomLevelConfig", "size": 780},
+{"name": "builder",
+ "children": [  
+{"name": "api",
+ "children": [  
+{"name": "Component", "size": 780}
+ ] 
+ } , 
+{"name": "impl",
+ "children": [  
+{"name": "BuiltConfiguration", "size": 780},
+{"name": "DefaultComponentBuilder", "size": 780},
+{"name": "DefaultConfigurationBuilder", "size": 780},
+{"name": "ExtendedClassInfo", "size": 780},
+{"name": "ExtendedStackTraceElement", "size": 780},
+{"name": "Log4jContextFactory", "size": 780},
+{"name": "Log4jLogEvent", "size": 780},
+{"name": "ThrowableFormatOptionsTest", "size": 780},
+{"name": "ThrowableProxy", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "plugins",
+ "children": [  
+{"name": "processor",
+ "children": [  
+{"name": "PluginEntry", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "filter",
+ "children": [  
+{"name": "AbstractFilter", "size": 780}
+ ] 
+ } , 
+{"name": "impl",
+ "children": [  
+{"name": "BuiltConfiguration", "size": 780},
+{"name": "DefaultComponentBuilder", "size": 780},
+{"name": "DefaultConfigurationBuilder", "size": 780},
+{"name": "ExtendedClassInfo", "size": 780},
+{"name": "ExtendedStackTraceElement", "size": 780},
+{"name": "Log4jContextFactory", "size": 780},
+{"name": "Log4jLogEvent", "size": 780},
+{"name": "ThrowableFormatOptionsTest", "size": 780},
+{"name": "ThrowableProxy", "size": 780}
+ ] 
+ } , 
+{"name": "jackson",
+ "children": [  
+{"name": "ExtendedStackTraceElementMixIn", "size": 780},
+{"name": "LevelMixInTest", "size": 780},
+{"name": "LogEventMixIn", "size": 780},
+{"name": "MapEntry", "size": 780}
+ ] 
+ } , 
+{"name": "jmx",
+ "children": [  
+{"name": "AsyncAppenderAdmin", "size": 780},
+{"name": "LoggerConfigAdmin", "size": 780},
+{"name": "ServerTest", "size": 780}
+ ] 
+ } , 
+{"name": "layout",
+ "children": [  
+{"name": "CsvLogEventLayoutTest", "size": 780},
+{"name": "CsvParameterLayoutTest", "size": 780},
+{"name": "JsonLayoutTest", "size": 780},
+{"name": "Rfc5424LayoutTest", "size": 780},
+{"name": "XmlLayoutTest", "size": 780}
+ ] 
+ } , 
+{"name": "lookup",
+ "children": [  
+{"name": "InterpolatorTest", "size": 780},
+{"name": "JndiLookupTest", "size": 780},
+{"name": "StrSubstitutor", "size": 780}
+ ] 
+ } , 
+{"name": "net",
+ "children": [  
+{"name": "DatagramOutputStream", "size": 780},
+{"name": "mock",
+ "children": [  
+{"name": "MockSyslogServer", "size": 780}
+ ] 
+ } , 
+{"name": "server",
+ "children": [  
+{"name": "AbstractSocketServerTest", "size": 780},
+{"name": "JsonInputStreamLogEventBridge", "size": 780}
+ ] 
+ } , 
+{"name": "ssl",
+ "children": [  
+{"name": "KeyStoreConfigurationTest", "size": 780},
+{"name": "StoreConfiguration", "size": 780},
+{"name": "TrustStoreConfigurationTest", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "pattern",
+ "children": [  
+{"name": "AbstractStyleNameConverter", "size": 780},
+{"name": "AnsiEscape", "size": 780},
+{"name": "CachedDateFormat", "size": 780},
+{"name": "DatePatternConverterTest", "size": 780},
+{"name": "FormattingInfo", "size": 780},
+{"name": "NameAbbreviator", "size": 780},
+{"name": "PatternParser", "size": 780},
+{"name": "PatternParserTest2", "size": 780}
+ ] 
+ } , 
+{"name": "selector",
+ "children": [  
+{"name": "BasicContextSelector", "size": 780},
+{"name": "ContextSelector", "size": 780}
+ ] 
+ } , 
+{"name": "util",
+ "children": [  
+{"name": "ClockFactoryTest", "size": 780},
+{"name": "CyclicBuffer", "size": 780},
+{"name": "Integers", "size": 780},
+{"name": "JndiCloser", "size": 780},
+{"name": "NanoClockFactoryTest", "size": 780},
+{"name": "Timer", "size": 780},
+{"name": "UuidTest", "size": 780},
+{"name": "datetime",
+ "children": [  
+{"name": "FastDateParser", "size": 780},
+{"name": "FastDatePrinter", "size": 780},
+{"name": "FixedDateFormat", "size": 780},
+{"name": "FixedDateFormatTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "flume",
+ "children": [  
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "io",
+ "children": [  
+{"name": "ByteStreamLogger", "size": 780},
+{"name": "CharStreamLogger", "size": 780},
+{"name": "LoggerPrintStream", "size": 780},
+{"name": "LoggerPrintWriter", "size": 780}
+ ] 
+ } , 
+{"name": "jcl",
+ "children": [  
+{"name": "Log4jLog", "size": 780},
+{"name": "LogFactoryImpl", "size": 780}
+ ] 
+ } , 
+{"name": "message",
+ "children": [  
+{"name": "BasicThreadInformation", "size": 780},
+{"name": "FormattedMessage", "size": 780},
+{"name": "FormattedMessageTest", "size": 780},
+{"name": "LocalizedMessage", "size": 780},
+{"name": "LocalizedMessageTest", "size": 780},
+{"name": "MapMessageTest", "size": 780},
+{"name": "MessageFormatMessage", "size": 780},
+{"name": "MessageFormatMessageTest", "size": 780},
+{"name": "MessageFormatsPerfTest", "size": 780},
+{"name": "ObjectArrayMessage", "size": 780},
+{"name": "ObjectMessage", "size": 780},
+{"name": "ObjectMessageTest", "size": 780},
+{"name": "ParameterizedMessage", "size": 780},
+{"name": "ParameterizedMessageTest", "size": 780},
+{"name": "SimpleMessage", "size": 780},
+{"name": "StringFormattedMessage", "size": 780},
+{"name": "StringFormattedMessageTest", "size": 780},
+{"name": "StructuredDataId", "size": 780},
+{"name": "StructuredDataMessage", "size": 780}
+ ] 
+ } , 
+{"name": "nosql",
+ "children": [  
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "perf",
+ "children": [  
+{"name": "jmh",
+ "children": [  
+{"name": "DebugDisabledBenchmark", "size": 780},
+{"name": "LoggerConfigBenchmark", "size": 780},
+{"name": "ParameterizedMessageBenchmark", "size": 780},
+{"name": "PatternLayoutBenchmark", "size": 780},
+{"name": "SimpleBenchmark", "size": 780},
+{"name": "TimeFormatBenchmark", "size": 780},
+{"name": "generated",
+ "children": [  
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_latency", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_throughputBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_latency", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_throughputBaseline", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_latency", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_throughputBaseline", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B1", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B2", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B3", "size": 780},
+{"name": "AsyncLoggersBenchmark_latency", "size": 780},
+{"name": "AsyncLoggersBenchmark_latencyBaseline", "size": 780},
+{"name": "AsyncLoggersBenchmark_throughput", "size": 780},
+{"name": "AsyncLoggersBenchmark_throughputBaseline", "size": 780},
+{"name": "ClocksBenchmark_baseline", "size": 780},
+{"name": "ClocksBenchmark_cachedClock", "size": 780},
+{"name": "ClocksBenchmark_coarseCachedClock", "size": 780},
+{"name": "ClocksBenchmark_fixedClock", "size": 780},
+{"name": "ClocksBenchmark_fixedFinalClock", "size": 780},
+{"name": "ClocksBenchmark_jmh_B1", "size": 780},
+{"name": "ClocksBenchmark_jmh_B2", "size": 780},
+{"name": "ClocksBenchmark_jmh_B3", "size": 780},
+{"name": "ClocksBenchmark_oldCachedClock", "size": 780},
+{"name": "ClocksBenchmark_systemClock", "size": 780},
+{"name": "ClocksBenchmark_systemCurrentTimeMillis", "size": 780},
+{"name": "CollectionsBenchmark_iterArrayList1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArrayList3Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArraySet1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArraySet3Element", "size": 780},
+{"name": "CollectionsBenchmark_iterMap1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterMap3Elements", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B1", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B2", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B3", "size": 780},
+{"name": "CollectionsBenchmark_testBaseline", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_initializeLoggerContext", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B1", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B2", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B3", "size": 780},
+{"name": "DebugDisabledBenchmark_baseline", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B1", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B2", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B3", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jClassicDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jClassicIsDebugEnabled", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jDebugParameterizedString", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jIsDebugEnabled", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jDebugParameterizedString", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jIsDebugEnabled", "size": 780},
+{"name": "FileAppenderBenchmark_baseline", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "FileAppenderBenchmark_log4j1StringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2ParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2RAFParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2RAFStringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2StringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_slf4jParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_slf4jStringConcatenation", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B1", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B2", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B3", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyBaseline", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyParameterizedDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyParameterizedString", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyStringFormatDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyStringFormatString", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputBaseline", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputParameterizedDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputParameterizedString", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputStringFormatDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputStringFormatString", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeH2Exception", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeH2Message", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeHSQLDBException", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeHSQLDBMessage", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputH2Exception", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputH2Message", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputHSQLDBException", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputHSQLDBMessage", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeH2Exception", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeH2Message", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeHSQLDBException", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeHSQLDBMessage", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputH2Exception", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputH2Message", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputHSQLDBException", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputHSQLDBMessage", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithExceptionUsingBuilder", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithoutException", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithoutExceptionUsingBuilder", "size": 780},
+{"name": "Log4jLogEventBenchmark_createSerializableLogEventProxyWithException", "size": 780},
+{"name": "Log4jLogEventBenchmark_createSerializableLogEventProxyWithoutException", "size": 780},
+{"name": "Log4jLogEventBenchmark_getSourceLocationOfLogEvent", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B1", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B2", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B3", "size": 780},
+{"name": "Log4jLogEventBenchmark_testBaseline", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B1", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B2", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B3", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersAndLock", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersNoLocks", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersRetryAfterReconfig", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithoutCountersOrLocks", "size": 780},
+{"name": "LoggerConfigBenchmark_testBaseline", "size": 780},
+{"name": "NanotimeBenchmark_baseline", "size": 780},
+{"name": "NanotimeBenchmark_granularity_nanotime", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B1", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B2", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B3", "size": 780},
+{"name": "NanotimeBenchmark_latency_nanotime", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format0", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format0_inlined2", "size": 780},
+{"name": "ParameterizedMessageBenchmark_formatStringArgs", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B1", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B2", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B3", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B1", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B2", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B3", "size": 780},
+{"name": "PatternLayoutBenchmark_throughputPatternM", "size": 780},
+{"name": "PatternLayoutBenchmark_throughputPatternMC", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "logging",
+ "children": [  
+{"name": "log4j2",
+ "children": [  
+{"name": "Log4j2Logger", "size": 780}
+ ] 
+ } , 
+{"name": "log4j",
+ "children": [  
+{"name": "Category", "size": 780},
+{"name": "Layout", "size": 780},
+{"name": "LogManager", "size": 780},
+{"name": "NDC", "size": 780},
+{"name": "Priority", "size": 780},
+{"name": "PriorityTest", "size": 780},
+{"name": "xml",
+ "children": [  
+{"name": "DOMConfigurator", "size": 780}
+ ] 
+ } , 
+{"name": "FilterPerformanceComparison", "size": 780},
+{"name": "LoggerTest", "size": 780},
+{"name": "MarkerManager", "size": 780},
+{"name": "PerformanceComparison", "size": 780},
+{"name": "PerformanceRun", "size": 780},
+{"name": "ThreadContext", "size": 780},
+{"name": "ThreadContextInheritanceTest", "size": 780},
+{"name": "ThreadContextTest", "size": 780},
+{"name": "Timer", "size": 780},
+{"name": "core",
+ "children": [  
+{"name": "AbstractLifeCycle", "size": 780},
+{"name": "AbstractLogEvent", "size": 780},
+{"name": "LoggerContext", "size": 780},
+{"name": "SimplePerfTest", "size": 780},
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "async",
+ "children": [  
+{"name": "AsyncLoggerConfigHelper", "size": 780},
+{"name": "AsyncLoggerContextSelectorTest", "size": 780},
+{"name": "AsyncLoggerThreadNameStrategyTest", "size": 780},
+{"name": "RingBufferLogEvent", "size": 780},
+{"name": "perftest",
+ "children": [  
+{"name": "IPerfTestRunner", "size": 780},
+{"name": "MtPerfTest", "size": 780},
+{"name": "PerfTest", "size": 780},
+{"name": "PerfTestResultFormatter", "size": 780},
+{"name": "RunLog4j1", "size": 780},
+{"name": "RunLog4j2", "size": 780},
+{"name": "RunLogback", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "config",
+ "children": [  
+{"name": "Configurator", "size": 780},
+{"name": "CustomLevelConfig", "size": 780},
+{"name": "builder",
+ "children": [  
+{"name": "api",
+ "children": [  
+{"name": "Component", "size": 780}
+ ] 
+ } , 
+{"name": "impl",
+ "children": [  
+{"name": "BuiltConfiguration", "size": 780},
+{"name": "DefaultComponentBuilder", "size": 780},
+{"name": "DefaultConfigurationBuilder", "size": 780},
+{"name": "ExtendedClassInfo", "size": 780},
+{"name": "ExtendedStackTraceElement", "size": 780},
+{"name": "Log4jContextFactory", "size": 780},
+{"name": "Log4jLogEvent", "size": 780},
+{"name": "ThrowableFormatOptionsTest", "size": 780},
+{"name": "ThrowableProxy", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "plugins",
+ "children": [  
+{"name": "processor",
+ "children": [  
+{"name": "PluginEntry", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "filter",
+ "children": [  
+{"name": "AbstractFilter", "size": 780}
+ ] 
+ } , 
+{"name": "impl",
+ "children": [  
+{"name": "BuiltConfiguration", "size": 780},
+{"name": "DefaultComponentBuilder", "size": 780},
+{"name": "DefaultConfigurationBuilder", "size": 780},
+{"name": "ExtendedClassInfo", "size": 780},
+{"name": "ExtendedStackTraceElement", "size": 780},
+{"name": "Log4jContextFactory", "size": 780},
+{"name": "Log4jLogEvent", "size": 780},
+{"name": "ThrowableFormatOptionsTest", "size": 780},
+{"name": "ThrowableProxy", "size": 780}
+ ] 
+ } , 
+{"name": "jackson",
+ "children": [  
+{"name": "ExtendedStackTraceElementMixIn", "size": 780},
+{"name": "LevelMixInTest", "size": 780},
+{"name": "LogEventMixIn", "size": 780},
+{"name": "MapEntry", "size": 780}
+ ] 
+ } , 
+{"name": "jmx",
+ "children": [  
+{"name": "AsyncAppenderAdmin", "size": 780},
+{"name": "LoggerConfigAdmin", "size": 780},
+{"name": "ServerTest", "size": 780}
+ ] 
+ } , 
+{"name": "layout",
+ "children": [  
+{"name": "CsvLogEventLayoutTest", "size": 780},
+{"name": "CsvParameterLayoutTest", "size": 780},
+{"name": "JsonLayoutTest", "size": 780},
+{"name": "Rfc5424LayoutTest", "size": 780},
+{"name": "XmlLayoutTest", "size": 780}
+ ] 
+ } , 
+{"name": "lookup",
+ "children": [  
+{"name": "InterpolatorTest", "size": 780},
+{"name": "JndiLookupTest", "size": 780},
+{"name": "StrSubstitutor", "size": 780}
+ ] 
+ } , 
+{"name": "net",
+ "children": [  
+{"name": "DatagramOutputStream", "size": 780},
+{"name": "mock",
+ "children": [  
+{"name": "MockSyslogServer", "size": 780}
+ ] 
+ } , 
+{"name": "server",
+ "children": [  
+{"name": "AbstractSocketServerTest", "size": 780},
+{"name": "JsonInputStreamLogEventBridge", "size": 780}
+ ] 
+ } , 
+{"name": "ssl",
+ "children": [  
+{"name": "KeyStoreConfigurationTest", "size": 780},
+{"name": "StoreConfiguration", "size": 780},
+{"name": "TrustStoreConfigurationTest", "size": 780}
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "pattern",
+ "children": [  
+{"name": "AbstractStyleNameConverter", "size": 780},
+{"name": "AnsiEscape", "size": 780},
+{"name": "CachedDateFormat", "size": 780},
+{"name": "DatePatternConverterTest", "size": 780},
+{"name": "FormattingInfo", "size": 780},
+{"name": "NameAbbreviator", "size": 780},
+{"name": "PatternParser", "size": 780},
+{"name": "PatternParserTest2", "size": 780}
+ ] 
+ } , 
+{"name": "selector",
+ "children": [  
+{"name": "BasicContextSelector", "size": 780},
+{"name": "ContextSelector", "size": 780}
+ ] 
+ } , 
+{"name": "util",
+ "children": [  
+{"name": "ClockFactoryTest", "size": 780},
+{"name": "CyclicBuffer", "size": 780},
+{"name": "Integers", "size": 780},
+{"name": "JndiCloser", "size": 780},
+{"name": "NanoClockFactoryTest", "size": 780},
+{"name": "Timer", "size": 780},
+{"name": "UuidTest", "size": 780},
+{"name": "datetime",
+ "children": [  
+{"name": "FastDateParser", "size": 780},
+{"name": "FastDatePrinter", "size": 780},
+{"name": "FixedDateFormat", "size": 780},
+{"name": "FixedDateFormatTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "flume",
+ "children": [  
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "io",
+ "children": [  
+{"name": "ByteStreamLogger", "size": 780},
+{"name": "CharStreamLogger", "size": 780},
+{"name": "LoggerPrintStream", "size": 780},
+{"name": "LoggerPrintWriter", "size": 780}
+ ] 
+ } , 
+{"name": "jcl",
+ "children": [  
+{"name": "Log4jLog", "size": 780},
+{"name": "LogFactoryImpl", "size": 780}
+ ] 
+ } , 
+{"name": "message",
+ "children": [  
+{"name": "BasicThreadInformation", "size": 780},
+{"name": "FormattedMessage", "size": 780},
+{"name": "FormattedMessageTest", "size": 780},
+{"name": "LocalizedMessage", "size": 780},
+{"name": "LocalizedMessageTest", "size": 780},
+{"name": "MapMessageTest", "size": 780},
+{"name": "MessageFormatMessage", "size": 780},
+{"name": "MessageFormatMessageTest", "size": 780},
+{"name": "MessageFormatsPerfTest", "size": 780},
+{"name": "ObjectArrayMessage", "size": 780},
+{"name": "ObjectMessage", "size": 780},
+{"name": "ObjectMessageTest", "size": 780},
+{"name": "ParameterizedMessage", "size": 780},
+{"name": "ParameterizedMessageTest", "size": 780},
+{"name": "SimpleMessage", "size": 780},
+{"name": "StringFormattedMessage", "size": 780},
+{"name": "StringFormattedMessageTest", "size": 780},
+{"name": "StructuredDataId", "size": 780},
+{"name": "StructuredDataMessage", "size": 780}
+ ] 
+ } , 
+{"name": "nosql",
+ "children": [  
+{"name": "appender",
+ "children": [  
+{"name": "AsyncAppender", "size": 780},
+{"name": "FileAppenderTest", "size": 780},
+{"name": "OutputStreamAppenderTest", "size": 780},
+{"name": "SyslogAppenderTest", "size": 780},
+{"name": "SyslogAppenderTestBase", "size": 780},
+{"name": "TlsSyslogAppenderTest", "size": 780},
+{"name": "TlsSyslogFrame", "size": 780},
+{"name": "TlsSyslogFrameTest", "size": 780},
+{"name": "db",
+ "children": [  
+{"name": "jdbc",
+ "children": [  
+{"name": "ColumnConfigTest", "size": 780}
+ ] 
+ } , 
+{"name": "jpa",
+ "children": [  
+{"name": "converter",
+ "children": [  
+{"name": "ContextMapAttributeConverterTest", "size": 780},
+{"name": "ContextMapJsonAttributeConverterTest", "size": 780},
+{"name": "ContextStackAttributeConverterTest", "size": 780},
+{"name": "ContextStackJsonAttributeConverterTest", "size": 780},
+{"name": "MarkerAttributeConverterTest", "size": 780},
+{"name": "MessageAttributeConverterTest", "size": 780},
+{"name": "StackTraceElementAttributeConverterTest", "size": 780},
+{"name": "ThrowableAttributeConverter", "size": 780},
+{"name": "ThrowableAttributeConverterTest", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "rolling",
+ "children": [  
+{"name": "PatternProcessor", "size": 780},
+{"name": "PatternProcessorTest", "size": 780}
+ ] 
+ } , 
+{"name": "FlumeAppenderTest", "size": 780},
+{"name": "FlumeAvroManager", "size": 780},
+{"name": "FlumeEvent", "size": 780},
+{"name": "mongodb",
+ "children": [  
+{"name": "MongoDbObject", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ } , 
+{"name": "perf",
+ "children": [  
+{"name": "jmh",
+ "children": [  
+{"name": "DebugDisabledBenchmark", "size": 780},
+{"name": "LoggerConfigBenchmark", "size": 780},
+{"name": "ParameterizedMessageBenchmark", "size": 780},
+{"name": "PatternLayoutBenchmark", "size": 780},
+{"name": "SimpleBenchmark", "size": 780},
+{"name": "TimeFormatBenchmark", "size": 780},
+{"name": "generated",
+ "children": [  
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_latency", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLog4j1Benchmark_throughputBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_latency", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLog4j2Benchmark_throughputBaseline", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_NormalState_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B1", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B2", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_jmh_B3", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_latency", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_latencyBaseline", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_throughput", "size": 780},
+{"name": "AsyncAppenderLogbackBenchmark_throughputBaseline", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B1", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B2", "size": 780},
+{"name": "AsyncLoggersBenchmark_jmh_B3", "size": 780},
+{"name": "AsyncLoggersBenchmark_latency", "size": 780},
+{"name": "AsyncLoggersBenchmark_latencyBaseline", "size": 780},
+{"name": "AsyncLoggersBenchmark_throughput", "size": 780},
+{"name": "AsyncLoggersBenchmark_throughputBaseline", "size": 780},
+{"name": "ClocksBenchmark_baseline", "size": 780},
+{"name": "ClocksBenchmark_cachedClock", "size": 780},
+{"name": "ClocksBenchmark_coarseCachedClock", "size": 780},
+{"name": "ClocksBenchmark_fixedClock", "size": 780},
+{"name": "ClocksBenchmark_fixedFinalClock", "size": 780},
+{"name": "ClocksBenchmark_jmh_B1", "size": 780},
+{"name": "ClocksBenchmark_jmh_B2", "size": 780},
+{"name": "ClocksBenchmark_jmh_B3", "size": 780},
+{"name": "ClocksBenchmark_oldCachedClock", "size": 780},
+{"name": "ClocksBenchmark_systemClock", "size": 780},
+{"name": "ClocksBenchmark_systemCurrentTimeMillis", "size": 780},
+{"name": "CollectionsBenchmark_iterArrayList1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArrayList3Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArraySet1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterArraySet3Element", "size": 780},
+{"name": "CollectionsBenchmark_iterMap1Element", "size": 780},
+{"name": "CollectionsBenchmark_iterMap3Elements", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B1", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B2", "size": 780},
+{"name": "CollectionsBenchmark_jmh_B3", "size": 780},
+{"name": "CollectionsBenchmark_testBaseline", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_initializeLoggerContext", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B1", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B2", "size": 780},
+{"name": "ConfiguratorInitializeBenchmark_jmh_B3", "size": 780},
+{"name": "DebugDisabledBenchmark_baseline", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B1", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B2", "size": 780},
+{"name": "DebugDisabledBenchmark_jmh_B3", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jClassicDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jClassicIsDebugEnabled", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jDebugParameterizedString", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_log4jIsDebugEnabled", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jDebugParameterizedString", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jDebugStringConcatenation", "size": 780},
+{"name": "DebugDisabledBenchmark_slf4jIsDebugEnabled", "size": 780},
+{"name": "FileAppenderBenchmark_baseline", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "FileAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "FileAppenderBenchmark_log4j1StringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2ParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2RAFParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2RAFStringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_log4j2StringConcatenation", "size": 780},
+{"name": "FileAppenderBenchmark_slf4jParameterizedString", "size": 780},
+{"name": "FileAppenderBenchmark_slf4jStringConcatenation", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B1", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B2", "size": 780},
+{"name": "FormatterLoggerBenchmark_jmh_B3", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyBaseline", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyParameterizedDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyParameterizedString", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyStringFormatDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_latencyStringFormatString", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputBaseline", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputParameterizedDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputParameterizedString", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputStringFormatDouble", "size": 780},
+{"name": "FormatterLoggerBenchmark_throughputStringFormatString", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "JdbcAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeH2Exception", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeH2Message", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeHSQLDBException", "size": 780},
+{"name": "JdbcAppenderBenchmark_testResponseTimeHSQLDBMessage", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputH2Exception", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputH2Message", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputHSQLDBException", "size": 780},
+{"name": "JdbcAppenderBenchmark_testThroughputHSQLDBMessage", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B1", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B2", "size": 780},
+{"name": "JpaAppenderBenchmark_jmh_B3", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeH2Exception", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeH2Message", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeHSQLDBException", "size": 780},
+{"name": "JpaAppenderBenchmark_testResponseTimeHSQLDBMessage", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputH2Exception", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputH2Message", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputHSQLDBException", "size": 780},
+{"name": "JpaAppenderBenchmark_testThroughputHSQLDBMessage", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithExceptionUsingBuilder", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithoutException", "size": 780},
+{"name": "Log4jLogEventBenchmark_createLogEventWithoutExceptionUsingBuilder", "size": 780},
+{"name": "Log4jLogEventBenchmark_createSerializableLogEventProxyWithException", "size": 780},
+{"name": "Log4jLogEventBenchmark_createSerializableLogEventProxyWithoutException", "size": 780},
+{"name": "Log4jLogEventBenchmark_getSourceLocationOfLogEvent", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B1", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B2", "size": 780},
+{"name": "Log4jLogEventBenchmark_jmh_B3", "size": 780},
+{"name": "Log4jLogEventBenchmark_testBaseline", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B1", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B2", "size": 780},
+{"name": "LoggerConfigBenchmark_jmh_B3", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersAndLock", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersNoLocks", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithCountersRetryAfterReconfig", "size": 780},
+{"name": "LoggerConfigBenchmark_logWithoutCountersOrLocks", "size": 780},
+{"name": "LoggerConfigBenchmark_testBaseline", "size": 780},
+{"name": "NanotimeBenchmark_baseline", "size": 780},
+{"name": "NanotimeBenchmark_granularity_nanotime", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B1", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B2", "size": 780},
+{"name": "NanotimeBenchmark_jmh_B3", "size": 780},
+{"name": "NanotimeBenchmark_latency_nanotime", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format0", "size": 780},
+{"name": "ParameterizedMessageBenchmark_format0_inlined2", "size": 780},
+{"name": "ParameterizedMessageBenchmark_formatStringArgs", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B1", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B2", "size": 780},
+{"name": "ParameterizedMessageBenchmark_jmh_B3", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B1", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B2", "size": 780},
+{"name": "PatternLayoutBenchmark_jmh_B3", "size": 780},
+{"name": "PatternLayoutBenchmark_throughputPatternM", "size": 780},
+{"name": "PatternLayoutBenchmark_throughputPatternMC", "size": 780}
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  
+ ] 
+ }  

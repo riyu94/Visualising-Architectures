@@ -1,0 +1,17 @@
+ 1784 files for 50.3 files processed per second
+
+     Processing  Step     :  seconds
+------------------------- : --------
+ Build file list          :      2
+Read, Analyze & Count     :     32
+  Generate results files  :      0
+               Total time :     35 seconds
+
+    Stack Dumps:  0
+         Errors:  0
+       Warnings:  0
+    Information:  0
+Uncounted Files:  1561
+
+
+UCC -nocomplex -nolinks -nodup -ascii -unified -outdir /home/cs578user/Desktop/ArchRecOut/apache-log4j-2.new_RELAX_java_2017-03-09_14_32_17_597/apache-log4j-2.4-src.UCC -dir /home/cs578user/Desktop/RecProjects/apache-log4j-2.4-src

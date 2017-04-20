@@ -1,0 +1,25 @@
+Steps:
+
+1. Use the "new1.html" file to open the main page
+
+2. You can select the input file (in .rsf/.txt format) using the "Choose file" ("Browse" in Mozilla) button.
+(e.g files provided- "less 300_apache2.3" to read the file with text lines upto 300, "more300_apache2.3" to read the files in their original size)
+(This is done due to the hierarchical distribution in large files was taking too much time so less named files shown on some input values of data)
+
+3. Click the button corresponding to the type of file used, (e.g. with the help of "Click here to input the file with more than 350 lines (displays entire structure overview)" button)
+
+4. The input text box displays the original input file, whereas the output text box conatins the output file generated in .json format.
+
+5. Once generated, click on the "Save Text to File" button to save the file in .json format.
+
+6. Copy the saved file in the same folder (unzipped, e.g hw3) containing all the other files(.html,etc).
+
+7. Now click on the visualization diagram button to display the diagram(circle mapping/ treemap/ sunburst) of your choice.
+
+8. To compare the two systems diagrams, you can perform the steps 1-7 on separate windows/tabs in browser.
+
+9. Two diagrams would be generated, you can now compare for differences. 
+
+Note: You can use input files from the included folders, ME, NB and RELAX to generate different diagrams, just make sure to limit the number of lines in the "less file" and use the two versions to compare.
+
+Screenshots containing the diagrams generated of the two systems are included in the folder names "example2.3", "example2.4"

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<input type="file" id="fileinput" />
+<button onclick="myFunction1()">Click here to input the file with more than 300 lines (displays entire structure overview)</button>
+<button onclick="myFunction()">Click here input the file with less than 300 lines (displays hierarchical structure)</button>
+
+  <form action="index.html">
+                                                     <input type="submit" value="Visualization diagram (Circle Packing)">
+</form>
+  <form action="newindex.html">
+                                                         <input type="submit" value="Visualization diagram (TreeMap)">
+</form>
+  <form action="icicle.html">
+                                                         <input type="submit" value="Visualization diagram (Sunburst)">
+</form>
+    <script type="text/javascript">
+      function readSingleFile(evt) {
+        //Retrieve the first (and only!) File from the FileList object
+        var f = evt.target.files[0]; 
+
+        if (f) {
+          var r = new FileReader();
+          r.onload = function(e) { 
+              var contents = e.target.result;
+            alert( "Got the file.\n" 
+                  +"name: " + f.name + "\n"
+                  +"type: " + f.type + "\n"
+                  +"size: " + f.size + " bytes\n"
+                  + "starts with: " + contents.substr(1, contents.indexOf("\n"))
+            );  
+            document.getElementById('area').value=  contents;
+          }
+          r.readAsText(f);
+
+        } else { 
+          alert("Failed to load file");
+        }
+      }
+
+
+      document.getElementById('fileinput').addEventListener('change', readSingleFile, false);
+
+   var comp={};
+   var result="";
+var count=0;
+
+function myFunction1()
+      {
+var i;
+var j;
+var result="";
+
+
+var liness= document.getElementById('area').value;
+var lines=liness.split("\n");
+   
+//     //split index 0 at , to get headers
+    var left={};
+    var comp={};
+    var right={};
+   // var obj = {};
+  
+    for (i = 0; i < lines.length; i++) {
+      
+        //splitat , to get values
+        //document.write(currentline);
+      var   currentline = lines[i].split(" ");
+        //document.write(currentline);
+       if (!comp[currentline[1]]) {
+        comp[currentline[1]] = [];
+    }
+    comp[currentline[1]].push(currentline[2]);
+          
+}
+         result=result.concat("\{\n\"");
+  result=result.concat("name");
+result=result.concat("\"");
+result=result.concat("\: ");
+ result=result.concat("\"");
+
+
+ result=result.concat("rsf");
+ result=result.concat("\"\,\n \"children\"\: \[  \n");               
+for(var key in comp) {
+   result=result.concat("\{\n\"");
+  result=result.concat("name");
+result=result.concat("\"");
+result=result.concat("\: ");
+ result=result.concat("\"");
+
+
+ result=result.concat(key);
+ result=result.concat("\"\,\n \"children\"\: \[  ");
+   
+  for(j = 0; j < comp[key].length; j++)
+  {
+    result=result.concat("\n\{\"name\"\: \"");
+ result=result.concat(comp[key][j]);
+
+
+    result=result.concat("\"");
+
+  if(j==comp[key].length-1)
+   result=result.concat(", \"size\"\: 580\}");
+   else
+     result=result.concat(", \"size\"\: 580\}\,");
+  }
+//   if(getObjectKeyIndex(comp,key)==comp.length-1)
+//    result=result.concat("\n\]\n\}\n");
+// else
+var t=getObjectKeyIndex(comp,key);
+if(t==Object.keys(comp).length-1)
+  result=result.concat("\n\]\n\}\n");
+   else
+      result=result.concat("\n\]\n\},\n");
+
+}
+ result=result.concat("\n\]\n\}\n");
+        document.getElementById('area1').value= result;
+      }
+
+
+
+
+
+
+
+      function myFunction()
+      {
+var i;
+var j;
+
+
+
+var liness= document.getElementById('area').value;
+var lines=liness.split("\n");
+   
+//     //split index 0 at , to get headers
+ 
+   var stringg;
+    var currentline;
+    var k;
+    var arr=[];
+    for (i = 0; i < lines.length; i++) {
+      
+        //splitat , to get values
+        //document.write(currentline);
+       currentline = lines[i].split(" ");
+     
+     var stringg=currentline[2].split(".");
+     stringg.unshift(currentline[1]);
+        //document.write(currentlin[0]);
+//        if (!comp[currentline[1]]) {
+//         comp[currentline[1]] = [];
+//     }
+// if(comp[currentline[1]].indexOf(stringg[0])==-1)
+//    comp[currentline[1]].push(stringg[0]);
+
+for(k=0;k<stringg.length-1;k++)
+{
+ if (!comp[stringg[k]]) {
+        comp[stringg[k]] = [];
+         if(k==0)
+           arr.push(stringg[k]);
+    }
+if(comp[stringg[k]].indexOf(stringg[k+1])==-1)
+ {  comp[stringg[k]].push(stringg[k+1]);
+
+ //
+}
+}
+ }
+                      
+for(k=0;k<arr.length;k++) {
+   result=result.concat("\{\n\"");
+  result=result.concat("name");
+result=result.concat("\"");
+result=result.concat("\: ");
+ result=result.concat("\"");
+
+//if(arr.indexOf(key)==0)
+key=arr[k];
+ result=result.concat(key);
+bache(comp,key);
+ result=result.concat("\n \] \n \}  ");
+ //result=result.concat("*");
+  //result=result.concat(hii);
+
+// key=hii;
+
+
+
+ 
+ }
+        document.getElementById('area1').value= result;
+      }
+
+function bache(compp,keyy)
+{
+  if(compp[keyy])
+  {
+     result=result.concat("\"\,\n \"children\"\: \[  ");
+ for(var j = 0; j < compp[keyy].length; j++)
+   {
+   
+  result=result.concat("\n\{\"name\"\: \"");
+ result=result.concat(compp[keyy][j]);
+ bache(compp,compp[keyy][j]);
+if(!compp[compp[keyy][j]])
+{
+   result=result.concat("\"");
+  if(j==compp[keyy].length-1)
+   result=result.concat(", \"size\"\: 780\}");
+   else
+     result=result.concat(", \"size\"\: 780\}\,");
+
+  } 
+  else
+  {
+if(j==compp[keyy].length-1)
+  result=result.concat("\n \] \n \}  ");
+  else
+result=result.concat("\n \] \n \} \, ");
+  }
+}
+}
+return;
+}
+
+
+
+
+function getObjectKeyIndex(obj, keyToFind) {
+    var i = 0, key;
+    count=0;
+
+    for (key in obj) {
+        if (key == keyToFind) {
+            return i;
+        }
+count++;
+        i++;
+    }
+
+    return null;
+}
+
+
+function saveTextAsFile()
+{      
+// grab the content of the form field and place it into a variable
+    var textToWrite = document.getElementById('area1').value;
+//  create a new Blob (html5 magic) that conatins the data from your form feild
+    var textFileAsBlob = new Blob([textToWrite], {type:'text/plain'});
+// Specify the name of the file to be saved
+    var fileNameToSaveAs = "flare.json";
+    
+// Optionally allow the user to choose a file name by providing 
+// an imput field in the HTML and using the collected data here
+// var fileNameToSaveAs = txtFileName.text;
+
+// create a link for our script to 'click'
+    var downloadLink = document.createElement("a");
+//  supply the name of the file (from the var above).
+// you could create the name here but using a var
+// allows more flexability later.
+    downloadLink.download = fileNameToSaveAs;
+// provide text for the link. This will be hidden so you
+// can actually use anything you want.
+    downloadLink.innerHTML = "My Hidden Link";
+    
+// allow our code to work in webkit & Gecko based browsers
+// without the need for a if / else block.
+    window.URL = window.URL || window.webkitURL;
+          
+// Create the link Object.
+    downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+// when link is clicked call a function to remove it from
+    downloadLink.onclick = destroyClickedElement;
+// make sure the link is hidden.
+    downloadLink.style.display = "none";
+// add the link to the DOM
+    document.body.appendChild(downloadLink);
+    
+// click the new link
+    downloadLink.click();
+}
+
+function destroyClickedElement(event)
+{
+// remove the link from the DOM
+    document.body.removeChild(event.target);
+}
+
+
+    </script>
+      <button onclick="saveTextAsFile()">Save Text to File</button>
+      <p>Input file</p>
+    <textarea rows=20 id="area"></textarea>
+      <p>Output file(.json)</p>
+  <textarea rows=20 id="area1"></textarea>
+
+</html>
